@@ -1,0 +1,11 @@
+digraph "software/src/gps/adafruit-gps-breakout-3/ada-gps-3Driver.c"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="software/src/gps/adafruit\l-gps-breakout-3/ada-gps\l-3Driver.c",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Adafruit GPS Breakout v3 module driver source."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ada-gps-3.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ada-gps-3_8h.html",tooltip="Adafruit GPS Breakout v3 module driver interface."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="../gps.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gps_8h.html",tooltip="Embedded GPS module driver interface."];
+}

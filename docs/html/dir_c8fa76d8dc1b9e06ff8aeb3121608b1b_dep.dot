@@ -1,0 +1,15 @@
+digraph "software"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_c8fa76d8dc1b9e06ff8aeb3121608b1b {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_c8fa76d8dc1b9e06ff8aeb3121608b1b.html"]
+    dir_c8fa76d8dc1b9e06ff8aeb3121608b1b [shape=plaintext, label="software"];
+  dir_a1f1568bf64a88e73c1def3bab71f5fe [shape=box, label="include", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_a1f1568bf64a88e73c1def3bab71f5fe.html"];
+  dir_0a6976b261bfea925410a9d3b510969e [shape=box, label="src", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_0a6976b261bfea925410a9d3b510969e.html"];
+  }
+  dir_a1f1568bf64a88e73c1def3bab71f5fe->dir_0a6976b261bfea925410a9d3b510969e [headlabel="4", labeldistance=1.5 headhref="dir_000004_000008.html"];
+  dir_0a6976b261bfea925410a9d3b510969e->dir_a1f1568bf64a88e73c1def3bab71f5fe [headlabel="1", labeldistance=1.5 headhref="dir_000008_000004.html"];
+}

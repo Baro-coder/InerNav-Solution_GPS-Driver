@@ -1,0 +1,11 @@
+digraph "software/src/nmea"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_0a6976b261bfea925410a9d3b510969e {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="src", fontname="Helvetica", fontsize="10", URL="dir_0a6976b261bfea925410a9d3b510969e.html"]
+  dir_41a73063e3f074d276bce74c2eaf6154 [shape=box, label="nmea", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_41a73063e3f074d276bce74c2eaf6154.html"];
+  }
+}

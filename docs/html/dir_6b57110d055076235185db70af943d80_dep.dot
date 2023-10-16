@@ -1,0 +1,11 @@
+digraph "software/src/gps/adafruit-gps-breakout-3"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_e03a9e5dcb0628dda68c7d0b72390e24 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="gps", fontname="Helvetica", fontsize="10", URL="dir_e03a9e5dcb0628dda68c7d0b72390e24.html"]
+  dir_6b57110d055076235185db70af943d80 [shape=box, label="adafruit-gps-breakout-3", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_6b57110d055076235185db70af943d80.html"];
+  }
+}
